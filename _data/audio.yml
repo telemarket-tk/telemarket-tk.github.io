@@ -1,0 +1,23 @@
+- name: 600 Euro
+  singer:
+    - Boni
+  id: bx1d3e1v
+  date: 2003-06-29
+
+- name: Bimbo
+  singer:
+    - Bijan
+  id: ma55w1nk
+  date: 2005-10-11
+
+- name: Bella cosa
+  singer:
+    - Orlando
+  id: vhlukloz
+  date: 2003-06-10
+
+- name: Parigi
+  singer:
+    - Frattini
+  id: gwekdys4
+  date: 2005-08-22
