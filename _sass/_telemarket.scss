@@ -1,9 +1,10 @@
 html {
-  overflow-y: scroll; 
+  overflow-y: scroll;
 }
 
 ul li {
   margin-bottom: 2em;
+  display: inline-block;
   h4 {
     font-weight: bold;
     margin-bottom: 0;
@@ -11,4 +12,8 @@ ul li {
   p {
     margin-bottom: .5em;
   }
+}
+
+.wrapper {
+  max-width: 1920px;
 }

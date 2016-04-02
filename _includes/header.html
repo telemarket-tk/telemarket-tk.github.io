@@ -16,8 +16,10 @@
       <div class="trigger">
         {% assign pages = site.pages | sort: "menu" %}
         {% for my_page in pages %}
+          {% assign c = site.array %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% for song in site.data.audio %}{% if song.singer contains my_page.title or my_page.title == "All" %}{% assign c = c | push: "hello" %}{% endif %}{% endfor %}
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }} ({{ c | size }})</a>
           {% endif %}
         {% endfor %}
       </div>

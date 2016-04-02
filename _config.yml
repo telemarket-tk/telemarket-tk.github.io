@@ -11,5 +11,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 email: team@telemarket.tk
 # url: "http://yourdomain.com"
 
+# Data
+array: []
+
 # Build settings
 markdown: kramdown
