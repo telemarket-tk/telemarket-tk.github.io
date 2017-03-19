@@ -34,5 +34,9 @@ $ jekyll new . --force
 **Serve site**
 
 ```sh
-$ jekyll serve
+$ jekyll s
 ```
+
+**Playlist**
+
+- From [What are HTML5 audio and HTML5 video](http://devblog.lastrose.com/html5-audio-video-playlist/)
