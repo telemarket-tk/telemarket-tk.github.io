@@ -7,17 +7,17 @@
 
 <div class="player-container">
 	<header>
-		<h4 id="title">{{ sorted[0].name }}</h4>
-		<p id="meta">{{ sorted[0].singer }}, {{ sorted[0].date }}</p>
+		<h4 id="title">&nbsp;</h4>
+		<p id="meta">&nbsp;</p>
 	</header>
 	<audio id="audio" preload="auto" tabindex="0" controls="" >
-	  <source src="http://a.clyp.it/{{ sorted[0].id }}.mp3">
+	  <source src="">
 	  Your browser does not support the <code>audio</code> element.
 	</audio>
 
 	<ul id="playlist">
 	{% for song in sorted %}
-	<li{% if forloop.index0 == 0 %} class="active"{% endif %}><a href="http://a.clyp.it/{{ song.id }}.mp3"><h4>{{ song.name }}</h4></a><p>{{ song.singer }}, {{ song.date }}</p></li>
+	<li>{% if song.id %}{% assign link = "https://a.clyp.it/" | append: song.id | append: ".mp3" %}{% else %}{% assign link = "https://api.soundcloud.com/tracks/" | append: song.alt | append: "/stream?client_id=e31d6d4ea94c769510c7742a731ee87b" %}{% endif %}<a href="{{ link }}" data-meta="{{ song.singer | join: ', ' | append: ', ' | append: song.date }}"><h4>{{ song.name }}</h4></a><p>{{ song.singer | join: ", " }}, {{ song.date }}</p></li>
 	{% endfor %}
 	</ul>
 </div>
@@ -38,7 +38,7 @@ function init(){
 	var playlist = $('#playlist');
 	var tracks = playlist.find('li a');
 	var len = tracks.length - 1;
-	audio[0].volume = .10;
+	audio[0].volume = 1;
 	// audio[0].play();
 	playlist.find('a').click(function(e){
 			e.preventDefault();
@@ -64,5 +64,6 @@ function run(link, player){
 			player.load();
 			player.play();
 			$('#title').html(link.text());
+			$('#meta').html(link.attr('data-meta'));
 }
 </script>

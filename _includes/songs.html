@@ -8,8 +8,12 @@
     </p>
     <audio controls="controls">
       Your browser does not support the <code>audio</code> element.
-      <source src="http://a.clyp.it/{{ song.id }}.mp3" type="audio/mpeg">
-      <source src="http://a.clyp.it/{{ song.id }}.ogg" type="audio/ogg">
+			{% if song.id %}
+			  {% assign link = "http://a.clyp.it/" | append: song.id | append: ".mp3" %}
+			{% else %}
+				{% assign link = "https://www.dropbox.com/s/" | append: song.dropbox %}
+			{% endif %}
+      <source src="{{ link }}" type="audio/mpeg">
     </audio>
 
   </li>
