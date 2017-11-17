@@ -37,12 +37,14 @@
 - name: Io Ho
   singer:
     - Orlando
+  original: \"C.Rock\" by Chrisma
   id: nqne5jds
   date: 2006-08-14
 
 - name: Un Ricordo
   singer:
     - Bijan
+  original: \"Story Board\" by The Album Leaf
   id: d1nu2lpj
   date: 2008-12-27
 
@@ -97,13 +99,13 @@
 - name: 3 Marce in Più
   singer:
     - Boni
-  id: xzoq3spb
+  micca: 3marceinpiu
   date: 2003-07-05
 
 - name: Metropolismo
   singer:
     - Boni
-  id: 1y354fjr
+  micca: metropolismo
   date: 2005-01-26
 
 - name: 75 Pez
@@ -111,3 +113,83 @@
     - Orlando
   alt: 325003997
   date: 2008-01-02
+
+- name: Okaka
+  singer:
+    - Boni
+  micca: okaka
+
+- name: "C'est l'Amour"
+  singer:
+    - Orlando
+  micca: cest_lamour
+
+- name: Japon
+  singer:
+    - Orlando
+  micca: Japon
+
+- name: Tutti i Mari del Mondo
+  singer:
+    - Boni
+  micca: tutti_i_mari_del_mondo
+
+- name: Voglio Vedere
+  singer:
+    - Orlando
+  micca: voglio_vedere
+
+- name: Anni Insieme
+  singer:
+    - Boni
+  micca: anniinsieme
+
+- name: Esigente
+  singer:
+    - Orlando
+  micca: esigente
+
+- name: Grande Museo
+  singer:
+    - Boni
+  micca: grandemuseo
+
+- name: Guarda
+  singer:
+    - Orlando
+  micca: guarda
+
+- name: L'Abbandono
+  singer:
+    - Orlando
+  micca: abbandono
+
+- name: Con Mio Padre
+  singer:
+    - Orlando
+  micca: conmiopadre
+
+- name: Biscuit
+  singer:
+    - Frattini
+  micca: biscuit
+
+- name: Manca Poco
+  singer:
+    - Orlando
+  micca: manca_poco
+
+- name: Jaqueline
+  singer:
+    - Orlando
+  micca: jaqueline
+
+- name: Fegato d'Oca
+  singer:
+    - Orlando
+  micca: fegato_doca
+
+- name: Kartoon 29
+  singer:
+    - Frattini
+  micca: kartoon_29
