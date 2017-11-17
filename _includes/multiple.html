@@ -17,7 +17,7 @@
 
 	<ul id="playlist">
 	{% for song in sorted %}
-	<li>{% if song.id %}{% assign link = "https://api.clyp.it/" | append: song.id | append: ".mp3" %}{% elsif sond.alt %}{% assign link = "https://api.soundcloud.com/tracks/" | append: song.alt | append: "/stream?client_id=e31d6d4ea94c769510c7742a731ee87b" %}{% elsif song.micca %}{% assign link = "https://www.miccaclub.com/mp3/" | append: song.micca | append: ".mp3" %}{% endif %}<a href="{{ link }}" data-meta="{{ song.singer | join: ', ' | append: ', ' | append: song.date | append: ' - ' | append: song.original }}"><h4>{{ song.name }}</h4></a><p>{{ song.singer | join: ", " }}{% if song.date %}, {{ song.date }}{% endif %}</p></li>
+	<li>{% if song.id %}{% assign link = "https://api.clyp.it/" | append: song.id | append: ".mp3" %}{% elsif sond.alt %}{% assign link = "https://api.soundcloud.com/tracks/" | append: song.alt | append: "/stream?client_id=e31d6d4ea94c769510c7742a731ee87b" %}{% elsif song.micca %}{% assign link = "https://www.miccaclub.com/mp3/" | append: song.micca | append: ".mp3" %}{% endif %}<a href="{{ link }}" data-meta="{{ song.singer }}{% if song.date %}{{ ', ' | append: song.date }}{% endif %}{% if song.original %}{{ ' - ' | append: song.original }}{% endif %}"><h4>{{ song.name }}</h4></a><p>{{ song.singer | join: ", " }}{% if song.date %}, {{ song.date }}{% endif %}</p></li>
 	{% endfor %}
 	</ul>
 </div>
