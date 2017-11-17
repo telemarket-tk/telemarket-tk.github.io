@@ -11,7 +11,7 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% assign sorted = (site.data.audio | sort: 'date' | reverse ) %}
+    {% assign sorted = site.data.audio | sort: 'date' | reverse %}
     {% for song in sorted limit:10 %}
     <item>
       <title>{{ song.name | xml_escape }}</title>
