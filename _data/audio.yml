@@ -37,14 +37,14 @@
 - name: Io Ho
   singer:
     - Orlando
-  original: \"C.Rock\" by Chrisma
+  original: C.Rock by Chrisma
   id: nqne5jds
   date: 2006-08-14
 
 - name: Un Ricordo
   singer:
     - Bijan
-  original: \"Story Board\" by The Album Leaf
+  original: Story Board by The Album Leaf
   id: d1nu2lpj
   date: 2008-12-27
 
@@ -119,7 +119,7 @@
     - Boni
   micca: okaka
 
-- name: "C'est l'Amour"
+- name: C'est l'Amour
   singer:
     - Orlando
   micca: cest_lamour
@@ -127,11 +127,13 @@
 - name: Japon
   singer:
     - Orlando
+  original: Audrey's Dance by Twin Peaks Soundtrack
   micca: Japon
 
 - name: Tutti i Mari del Mondo
   singer:
     - Boni
+  original: Dangerous And Moving by t.A.T.u.
   micca: tutti_i_mari_del_mondo
 
 - name: Voglio Vedere
@@ -193,3 +195,13 @@
   singer:
     - Frattini
   micca: kartoon_29
+
+- name: Coshon
+  singer:
+    - Bijan
+  micca: coshon
+
+- name: E Allora
+  singer:
+    - Bijan
+  micca: e_allora
