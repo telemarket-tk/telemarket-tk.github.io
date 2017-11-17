@@ -11,12 +11,12 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% assign sorted = site.data.audio | sort: 'date' | reverse %}
+    {% assign sorted = site.data.audio | sort: 'date' %}
     {% for song in sorted limit:10 %}
     <item>
       <title>{{ song.name | xml_escape }}</title>
       <pubDate>{{ song.date | date_to_rfc822 }}</pubDate>
-      <link>http://a.clyp.it/{{ song.id }}</link>
+      <link>{% if song.id %}{% assign link = "https://api.clyp.it/" | append: song.id | append: ".mp3" %}{% elsif sond.alt %}{% assign link = "https://api.soundcloud.com/tracks/" | append: song.alt | append: "/stream?client_id=e31d6d4ea94c769510c7742a731ee87b" %}{% elsif song.micca %}{% assign link = "https://www.miccaclub.com/mp3/" | append: song.micca | append: ".mp3" %}{% endif %}{{ link }}</link>
     </item>
     {% endfor %}
   </channel>
