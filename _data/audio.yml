@@ -215,3 +215,13 @@
   singer:
     - Frattini
   micca: virtual_love
+
+- name: Possedere
+  singer:
+    - Bijan
+  micca: possedere
+
+- name: La Metafisica
+  singer:
+    - Boni
+  micca: la_metafisica
