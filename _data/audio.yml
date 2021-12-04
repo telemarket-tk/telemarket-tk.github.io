@@ -1,7 +1,7 @@
 - name: 600 Euro
   singer:
     - Boni
-  petrosh_altervista_org: 600 Euro
+  petrosh_altervista_org: 600_Euro
   date: 2003-06-29
 
 - name: Bimbo
@@ -31,14 +31,14 @@
 - name: Just Jack
   singer:
     - Orlando
-  petrosh_altervista_org: Just Jack
+  petrosh_altervista_org: Just_Jack
   date: 2007-05-27
 
 - name: Io Ho
   singer:
     - Orlando
   original: C.Rock by Chrisma
-  petrosh_altervista_org: Io Ho
+  petrosh_altervista_org: Io_Ho
   date: 2006-08-14
 
 - name: Un Ricordo
@@ -69,7 +69,7 @@
 - name: Il Vassoio in Visione
   singer:
     - Frattini
-  petrosh_altervista_org: Il Vassoio In Visione
+  petrosh_altervista_org: Il_Vassoio_In_Visione
   date: 2005-04-17
 
 - name: Stefania
@@ -87,13 +87,13 @@
 - name: Se Sa Sa
   singer:
     - Bijan
-  petrosh_altervista_org: Se Sa Sa
+  petrosh_altervista_org: Se_Sa_Sa
   date: 2005-03-15
 
 - name: Gira il Canal
   singer:
     - Bijan
-  petrosh_altervista_org: Gira Il Canal
+  petrosh_altervista_org: Gira_Il_Canal
   date: 2005-04-18
 
 - name: 3 Marce in Più
@@ -111,7 +111,7 @@
 - name: 75 Pez
   singer:
     - Orlando
-  petrosh_altervista_org: 75Pez
+  petrosh_altervista_org: 75PEZ
   date: 2008-01-02
 
 - name: Okaka
