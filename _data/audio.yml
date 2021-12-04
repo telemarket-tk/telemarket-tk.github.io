@@ -225,3 +225,39 @@
   singer:
     - Boni
   micca: la_metafisica
+
+- name: Panther
+  singer: [Frattini]
+  petrosh_altervista_org: Panther
+
+- name: Michela
+  singer: [Bijan]
+  petrosh_altervista_org: Michela
+
+- name: Stile
+  singer: [Orlando]
+  petrosh_altervista_org: Stile
+
+- name: Peppino
+  singer: [Frattini]
+  petrosh_altervista_org: Peppino
+
+- name: L'Ippopotamo
+  singer: [Boni]
+  petrosh_altervista_org: L_Ippopotamo
+
+- name: Pieni di Seta
+  singer: [Bijan]
+  petrosh_altervista_org: Pieni_di_Seta
+
+- name: La Mossa
+  singer: [Orlando]
+  petrosh_altervista_org: La_Mossa
+
+- name: Numero Uno
+  singer: [Boni]
+  petrosh_altervista_org: Numero_Uno
+
+- name: Epoch
+  singer: [Boni]
+  petrosh_altervista_org: Epoch
