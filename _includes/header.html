@@ -19,7 +19,7 @@
           {% assign c = site.array %}
           {% if my_page.title %}
             {% for song in site.data.audio %}{% if song.singer contains my_page.title or my_page.title == "All" %}{% assign c = c | push: "hello" %}{% endif %}{% endfor %}
-            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }} ({{ c | size }})</a>
+            <a class="page-link{% if page.title == my_page.title %} active{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }} ({{ c | size }})</a>
           {% endif %}
         {% endfor %}
       </div>
