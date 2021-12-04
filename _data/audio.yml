@@ -1,99 +1,99 @@
 - name: 600 Euro
   singer:
     - Boni
-  id: bx1d3e1v
+  petrosh_altervista_org: 600 Euro
   date: 2003-06-29
 
 - name: Bimbo
   singer:
     - Bijan
-  id: ma55w1nk
+  petrosh_altervista_org: Bimbo
   date: 2005-10-11
 
 - name: Bella cosa
   singer:
     - Orlando
-  id: vhlukloz
+  petrosh_altervista_org: Bella_Cosa
   date: 2003-06-10
 
 - name: Parigi
   singer:
     - Frattini
-  id: gwekdys4
+  petrosh_altervista_org: Parigi
   date: 2005-08-22
 
 - name: Ossessione
   singer:
     - Orlando
-  id: tyz1b5bl
+  petrosh_altervista_org: Ossessione
   date: 2008-01-26
 
 - name: Just Jack
   singer:
     - Orlando
-  id: zalxphpa
+  petrosh_altervista_org: Just Jack
   date: 2007-05-27
 
 - name: Io Ho
   singer:
     - Orlando
   original: C.Rock by Chrisma
-  id: nqne5jds
+  petrosh_altervista_org: Io Ho
   date: 2006-08-14
 
 - name: Un Ricordo
   singer:
     - Bijan
   original: Story Board by The Album Leaf
-  id: d1nu2lpj
+  petrosh_altervista_org: Un Ricordo
   date: 2008-12-27
 
 - name: Shining
   singer:
     - Orlando
-  id: ypp1oopu
+  petrosh_altervista_org: Shining
   date: 2008-10-16
 
 - name: Hagi Janily
   singer:
     - Bijan
-  id: 4mdzjjgi
+  petrosh_altervista_org: Hagi Janily
   date: 2005-07-06
 
 - name: Very Big
   singer:
     - Bijan
-  id: lddkxx0u
+  petrosh_altervista_org: Very Big
   date: 2006-05-13
 
 - name: Il Vassoio in Visione
   singer:
     - Frattini
-  id: j2uwyleu
+  petrosh_altervista_org: Il Vassoio In Visione
   date: 2005-04-17
 
 - name: Stefania
   singer:
     - Frattini
-  id: ashfliyh
+  petrosh_altervista_org: Stefania
   date: 2007-06-20
 
 - name: 5000
   singer:
     - Frattini
-  id: c0zqzwje
+  petrosh_altervista_org: 5000
   date: 2007-07-13
 
 - name: Se Sa Sa
   singer:
     - Bijan
-  id: v45iea54
+  petrosh_altervista_org: Se Sa Sa
   date: 2005-03-15
 
 - name: Gira il Canal
   singer:
     - Bijan
-  id: 14n2cejk
+  petrosh_altervista_org: Gira Il Canal
   date: 2005-04-18
 
 - name: 3 Marce in Più
@@ -111,7 +111,7 @@
 - name: 75 Pez
   singer:
     - Orlando
-  alt: 325003997
+  petrosh_altervista_org: 75Pez
   date: 2008-01-02
 
 - name: Okaka

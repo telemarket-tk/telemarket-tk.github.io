@@ -4,7 +4,6 @@
 	{% assign condition = "item.singer" %}
 {% endif %}
 {% assign sorted = site.data.audio | where_exp: "item", condition | sort: 'date' %}
-
 <div class="player-container">
 	<header>
 		<h4 id="title">&nbsp;</h4>
@@ -17,53 +16,17 @@
 
 	<ul id="playlist">
 	{% for song in sorted %}
-	<li>{% if song.id %}{% assign link = "https://api.clyp.it/" | append: song.id | append: ".mp3" %}{% elsif sond.alt %}{% assign link = "https://api.soundcloud.com/tracks/" | append: song.alt | append: "/stream?client_id=e31d6d4ea94c769510c7742a731ee87b" %}{% elsif song.micca %}{% assign link = "https://www.miccaclub.com/mp3/" | append: song.micca | append: ".mp3" %}{% endif %}<a href="{{ link }}" data-meta="{{ song.singer }}{% if song.date %}{{ ', ' | append: song.date }}{% endif %}{% if song.original %}{{ ' - ' | append: song.original }}{% endif %}"><h4>{{ song.name }}</h4></a><p>{{ song.singer | join: ", " }}{% if song.date %}, {{ song.date }}{% endif %}</p></li>
+	<li>{% if song.id %}{% assign link = "https://api.clyp.it/" | append: song.id | append: ".mp3" %}{% elsif sond.alt %}{% assign link = "https://api.soundcloud.com/tracks/" | append: song.alt | append: "/stream?client_id=e31d6d4ea94c769510c7742a731ee87b" %}{% elsif song.micca %}{% assign link = "https://www.miccaclub.com/mp3/" | append: song.micca | append: ".mp3" %}{% elsif song.petrosh_altervista_org %}{% assign link = "http://petrosh.altervista.org/telemarket/audio/" | append: song.petrosh_altervista_org | append: ".mp3" %}{% endif %}<a href="{{ link }}" data-meta="{{ song.singer }}{% if song.date %}{{ ', ' | append: song.date }}{% endif %}{% if song.original %}{{ ' - ' | append: song.original }}{% endif %}"><h4>{{ song.name }}</h4></a>
+    <p>{{ song.singer | join: ", " }}{% if song.date %}, {{ song.date }}{% endif %}</p></li>
 	{% endfor %}
 	</ul>
 </div>
 
 <style media="screen">
 	.player-container{padding:20px;}
-	.active a{color:black;}
+	.active a{color:Crimson;}
 	ul li {display:block;padding:5px;margin-bottom:0}
 	/*#playlist,audio{width:400px;}*/
 	#title{font-weight: bold;margin-bottom: 0;}
 	.player-container header{margin-left: 30px;color: grey;}
 </style>
-<script type="text/javascript">
-init();
-function init(){
-	var current = 0;
-	var audio = $('#audio');
-	var playlist = $('#playlist');
-	var tracks = playlist.find('li a');
-	var len = tracks.length - 1;
-	audio[0].volume = 1;
-	// audio[0].play();
-	playlist.find('a').click(function(e){
-			e.preventDefault();
-			link = $(this);
-			current = link.parent().index();
-			run(link, audio[0]);
-	});
-	audio[0].addEventListener('ended',function(e){
-			current++;
-			if(current == len){
-					current = 0;
-					link = playlist.find('a')[0];
-			}else{
-					link = playlist.find('a')[current];
-			}
-			run($(link),audio[0]);
-	});
-}
-function run(link, player){
-			player.src = link.attr('href');
-			par = link.parent();
-			par.addClass('active').siblings().removeClass('active');
-			player.load();
-			player.play();
-			$('#title').html(link.text());
-			$('#meta').html(link.attr('data-meta'));
-}
-</script>
