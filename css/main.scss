@@ -3,8 +3,6 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -52,3 +50,31 @@ $on-laptop:        800px;
         "syntax-highlighting",
         "telemarket"
 ;
+
+// CUSTOM
+.player-container {
+  padding:20px;
+}
+.active a,
+.page-link.active {
+  color: DarkOrange;
+}
+ul li {
+  display: block;
+  padding: 5px;
+  margin-bottom: 0
+}
+#title {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.player-container header {
+  margin-left: 30px;
+  color: grey;
+}
+.site-footer p {
+  margin-bottom: 0;
+}
+#audio {
+  margin-bottom: 2em
+}
