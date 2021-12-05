@@ -1,234 +1,200 @@
 - name: 600 Euro
-  singer:
-    - Boni
+  singer: [Boni]
   petrosh_altervista_org: 600_Euro
   date: 2003-06-29
 
 - name: Bimbo
-  singer:
-    - Bijan
+  singer: [Bijan]
   petrosh_altervista_org: Bimbo
   date: 2005-10-11
 
 - name: Bella cosa
-  singer:
-    - Orlando
+  singer: [Orlando]
   petrosh_altervista_org: Bella_Cosa
   date: 2003-06-10
+  original: I'm Not The Man I Used To Be by Fine Young Cannibals
 
 - name: Parigi
-  singer:
-    - Frattini
+  singer: [Frattini]
   petrosh_altervista_org: Parigi
   date: 2005-08-22
 
 - name: Ossessione
-  singer:
-    - Orlando
+  singer: [Orlando]
   petrosh_altervista_org: Ossessione
   date: 2008-01-26
 
 - name: Just Jack
-  singer:
-    - Orlando
+  singer: [Orlando]
   petrosh_altervista_org: Just_Jack
   date: 2007-05-27
 
 - name: Io Ho
-  singer:
-    - Orlando
+  singer: [Orlando]
   original: C.Rock by Chrisma
   petrosh_altervista_org: Io_Ho
   date: 2006-08-14
 
 - name: Un Ricordo
-  singer:
-    - Bijan
+  singer: [Bijan]
   original: Story Board by The Album Leaf
   petrosh_altervista_org: Un_Ricordo
   date: 2008-12-27
 
 - name: Shining
-  singer:
-    - Orlando
+  singer: [Orlando]
   petrosh_altervista_org: Shining
+  original: When Tomorrow Comes by Spider Smile
   date: 2008-10-16
 
 - name: Hagi Janily
-  singer:
-    - Bijan
+  singer: [Bijan]
   petrosh_altervista_org: Hagi_Janily
   date: 2005-07-06
 
 - name: Very Big
-  singer:
-    - Bijan
+  singer: [Bijan]
   petrosh_altervista_org: Very_Big
   date: 2006-05-13
 
 - name: Il Vassoio in Visione
-  singer:
-    - Frattini
+  singer: [Frattini]
   petrosh_altervista_org: Il_Vassoio_In_Visione
   date: 2005-04-17
 
 - name: Stefania
-  singer:
-    - Frattini
+  singer: [Frattini]
   petrosh_altervista_org: Stefania
   date: 2007-06-20
 
 - name: 5000
-  singer:
-    - Frattini
+  singer: [Frattini]
   petrosh_altervista_org: 5000
   date: 2007-07-13
 
 - name: Se Sa Sa
-  singer:
-    - Bijan
+  singer: [Bijan]
   petrosh_altervista_org: Se_Sa_Sa
   date: 2005-03-15
 
 - name: Gira il Canal
-  singer:
-    - Bijan
+  singer: [Bijan]
   petrosh_altervista_org: Gira_Il_Canal
   date: 2005-04-18
 
 - name: 3 Marce in Più
-  singer:
-    - Boni
+  singer: [Boni]
   micca: 3marceinpiu
   date: 2003-07-05
 
 - name: Metropolismo
-  singer:
-    - Boni
+  singer: [Boni]
   micca: metropolismo
   date: 2005-01-26
 
 - name: 75 Pez
-  singer:
-    - Orlando
+  singer: [Orlando]
   petrosh_altervista_org: 75PEZ
   date: 2008-01-02
+  original: Onmortality by Pablo Bolivar
 
 - name: Okaka
-  singer:
-    - Boni
+  singer: [Boni]
   micca: okaka
 
 - name: C'est l'Amour
-  singer:
-    - Orlando
+  singer: [Orlando]
   micca: cest_lamour
+  original: Endless Supply by Pernice Brothers
 
 - name: Japon
-  singer:
-    - Orlando
+  singer: [Orlando]
   original: Audrey's Dance by Twin Peaks Soundtrack
   micca: Japon
 
 - name: Tutti i Mari del Mondo
-  singer:
-    - Boni
+  singer: [Boni]
   original: Dangerous And Moving by t.A.T.u.
   micca: tutti_i_mari_del_mondo
 
 - name: Voglio Vedere
-  singer:
-    - Orlando
+  singer: [Orlando]
   micca: voglio_vedere
 
 - name: Anni Insieme
-  singer:
-    - Boni
+  singer: [Boni]
   micca: anniinsieme
 
 - name: Esigente
-  singer:
-    - Orlando
+  singer: [Orlando]
   micca: esigente
 
 - name: Grande Museo
-  singer:
-    - Boni
+  singer: [Boni]
   micca: grandemuseo
 
 - name: Guarda
-  singer:
-    - Orlando
+  singer: [Orlando]
   micca: guarda
 
 - name: L'Abbandono
-  singer:
-    - Orlando
+  singer: [Orlando]
   micca: abbandono
 
 - name: Con Mio Padre
-  singer:
-    - Orlando
+  singer: [Orlando]
   micca: conmiopadre
 
 - name: Biscuit
-  singer:
-    - Frattini
+  singer: [Frattini]
   micca: biscuit
 
 - name: Manca Poco
-  singer:
-    - Orlando
+  singer: [Orlando]
   micca: manca_poco
 
 - name: Jaqueline
-  singer:
-    - Orlando
+  singer: [Orlando]
   micca: jaqueline
 
 - name: Fegato d'Oca
-  singer:
-    - Orlando
+  singer: [Orlando]
   micca: fegato_doca
 
 - name: Kartoon 29
-  singer:
-    - Frattini
+  singer: [Frattini]
   micca: kartoon_29
+  original: The Kartoon Maker by Jean-Jacques Perrey Et Daniel Longuein
 
 - name: Coshon
-  singer:
-    - Bijan
+  singer: [Bijan]
   micca: coshon
 
 - name: E Allora
-  singer:
-    - Bijan
+  singer: [Bijan]
   micca: e_allora
+  original: Ooh La La by Coolio
 
 - name: Bombè
-  singer:
-    - Frattini
+  singer: [Frattini]
   micca: bombe
 
 - name: Virtual Love
-  singer:
-    - Frattini
+  singer: [Frattini]
   micca: virtual_love
 
 - name: Possedere
-  singer:
-    - Bijan
+  singer: [Bijan]
   micca: possedere
 
 - name: La Metafisica
-  singer:
-    - Boni
+  singer: [Boni]
   micca: la_metafisica
 
 - name: Panther
   singer: [Frattini]
   petrosh_altervista_org: Panther
+  original: Galvanize by The Chemical Brothers
 
 - name: Michela
   singer: [Bijan]
@@ -237,6 +203,7 @@
 - name: Stile
   singer: [Orlando]
   petrosh_altervista_org: Stile
+  original: Get Yourself High by The Chemical Brothers, k-os
 
 - name: Peppino
   singer: [Frattini]
