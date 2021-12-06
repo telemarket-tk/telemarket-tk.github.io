@@ -106,7 +106,7 @@
 
 - name: C'est l'Amour
   singer: [Orlando]
-  micca: cest_lamour
+  github: cest_lamour
   original: Endless Supply by Pernice Brothers
 
 - name: Japon
@@ -171,7 +171,8 @@
 
 - name: Coshon
   singer: [Bijan]
-  micca: coshon
+  github: coshon
+  original: Samba Do Sueño by Eddie Palmier, Cal Tjader
 
 - name: E Allora
   singer: [Bijan]
@@ -231,3 +232,43 @@
 - name: Epoch
   singer: [Boni]
   petrosh_altervista_org: Epoch
+
+- name: Tetesco
+  singer: [Boni, Frattini]
+  github: Tetesco
+
+- name: Amati Amati Amati
+  singer: [Frattini]
+  github: Amati_Amati_Amati
+
+- name: Din Din Din
+  singer: [Banfi]
+  github: Din_Din_Din
+
+- name: Accetto Scommesse
+  singer: [Paci]
+  github: Accetto_Scommesse
+
+- name: Il Vecchio Giampier
+  singer: [Paci]
+  github: Il_Vecchio_Giampier
+
+- name: Veramente Strike
+  singer: [Paci]
+  github: Veramente_Strike
+
+- name: Gothlo
+  singer: [Bijan]
+  github: Gothlo
+
+- name: Per il Corno
+  singer: [Bertoncelli]
+  github: Per_Il_Corno
+
+- name: Oro Bianco
+  singer: [Bertoncelli]
+  github: Oro_Bianco
+
+- name: È Tornato
+  singer: [Orlando, Boni]
+  github: E_Tornato
