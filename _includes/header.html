@@ -1,8 +1,7 @@
 <header class="site-header">
 
   <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <span class="site-title">{{ site.title }}</span>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -13,18 +12,17 @@
         </svg>
       </a>
 
-      <div class="trigger">
-        {% assign pages = site.pages | sort: "menu" %}
-        {% for my_page in pages %}
-          {% assign c = site.array %}
-          {% if my_page.title %}
-            {% for song in site.data.audio %}{% if song.singer contains my_page.title or my_page.title == "All" %}{% assign c = c | push: "hello" %}{% endif %}{% endfor %}
-            <a class="page-link{% if page.title == my_page.title %} active{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }} ({{ c | size }})</a>
-          {% endif %}
-        {% endfor %}
-      </div>
     </nav>
-
+    <div id="player_div">
+      <header>
+        <h4 id="title">&nbsp;</h4>
+        <p id="meta">&nbsp;</p>
+      </header>
+      <audio id="audio" preload="auto" tabindex="0" controls="" >
+        <source src="">
+        Your browser does not support the <code>audio</code> element.
+      </audio>
+    </div>
   </div>
 
 </header>
