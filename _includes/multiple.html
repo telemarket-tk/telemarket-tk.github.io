@@ -3,7 +3,7 @@
 {% else %}
 	{% assign condition = "item.singer" %}
 {% endif %}
-{% assign sorted = site.data.audio | where_exp: "item", condition | sort: 'date' %}
+{% assign sorted = site.data.audio | where_exp: "item", condition | sort: 'name' %}
 <div class="player-container">
   <header>
   	<h4 id="title">&nbsp;</h4>
