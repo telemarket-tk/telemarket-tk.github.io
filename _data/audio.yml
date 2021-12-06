@@ -68,9 +68,9 @@
   petrosh_altervista_org: Stefania
   date: 2007-06-20
 
-- name: 5000
+- name: "5000"
   singer: [Frattini]
-  petrosh_altervista_org: 5000
+  petrosh_altervista_org: "5000"
   date: 2007-07-13
 
 - name: Se Sa Sa
@@ -246,7 +246,7 @@
   github: Din_Din_Din
 
 - name: Accetto Scommesse
-  singer: [Paci]
+  singer: [Paci, Tommasi]
   github: Accetto_Scommesse
 
 - name: Il Vecchio Giampier
@@ -263,7 +263,7 @@
 
 - name: Per il Corno
   singer: [Bertoncelli]
-  github: Per_Il_Corno
+  github: Per_il_Corno
 
 - name: Oro Bianco
   singer: [Bertoncelli]
@@ -272,3 +272,19 @@
 - name: È Tornato
   singer: [Orlando, Boni]
   github: E_Tornato
+
+- name: Grazie
+  singer: [Paci]
+  github: Grazie
+
+- name: La Macchina
+  singer: [Orlando]
+  github: La_Macchina
+
+- name: Signore
+  singer: [Orlando]
+  github: Signore
+
+- name: L'Effetto Baseviz
+  singer: [Orlando, Boni]
+  github: Baseviz
