@@ -5,20 +5,12 @@
 {% endif %}
 {% assign sorted = site.data.audio | where_exp: "item", condition | sort: 'name' %}
 <div class="player-container">
-  <header>
-  	<h4 id="title">&nbsp;</h4>
-  	<p id="meta">&nbsp;</p>
-  </header>
-  <audio id="audio" preload="auto" tabindex="0" controls="" >
-    <source src="">
-    Your browser does not support the <code>audio</code> element.
-  </audio>
 
   <ul id="playlist">
   {% for song in sorted %}
-    <li>{% if song.micca %}{% assign link = "https://www.miccaclub.com/mp3/" | append: song.micca | append: ".mp3" %}{% elsif song.petrosh_altervista_org %}{% assign link = "http://petrosh.altervista.org/telemarket/audio/" | append: song.petrosh_altervista_org | append: ".mp3" %}{% elsif song.github %}{% assign link = site.baseurl | append: "/mp3/" | append: song.github | append: ".mp3" %}{% endif %}
+    <li>{% if song.github %}{% assign link = site.baseurl | append: "/mp3/" | append: song.github | append: ".mp3" %}{% endif %}
       <a href="{{ link }}" data-meta="{{ song.singer }}{% if song.date %} ({{ song.date }}){% endif %}{% if song.original %} - {{ song.original }}{% endif %}"><h4>{{ song.name }}</h4></a>
-      <p>{{ song.singer | join: ", " }}{% if song.date %} ({{ song.date }}){% endif %}{% if song.original %} - {{ song.original }}{% endif %}</p>
+      <p>{{ song.singer }}{% if song.date %} ({{ song.date }}){% endif %}{% if song.original %} - {{ song.original }}{% endif %}</p>
     </li>{% endfor %}
   </ul>
 </div>
