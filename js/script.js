@@ -33,35 +33,21 @@ function run(link, player){
 			$('#title').html(link.text());
 			$('#meta').html(link.attr('data-meta'));
 }
-// 
-// var xhrObject = new XMLHttpRequest();
-//
-// xhrObject.onreadystatechange = function() {
-//   if (xhrObject.readyState === 4) {
-//     if (xhrObject.status === 200 || xhrObject.status === 304) {
-//       obj = JSON.parse(xhrObject.responseText);
-//       console.log(obj);
-//       // pager = obj.response.pager;
-//       // episodes = pager.results;
-//       // currentPage = pager.current_page;
-//       // lastPage = pager.last_page;
-//       // add( episodes );
-//       // if ( currentPage < lastPage ){
-//       //   readSpreaker( currentPage + 1 );
-//       // }
-//     }
-//   }
-// };
-//
-// function readSpreaker(page){
-//   xhrObject.open(
-//     "GET",
-//     "https://api.clyp.it/vhlukloz",
-//     true
-//   );
-//   xhrObject.setRequestHeader("Content-Type",'text/xml');
-//   xhrObject.send();
-// }
-//
-// readSpreaker(1);
-// // https://api.clyp.it/vhlukloz.mp3
+
+function string_to_slug (str) {
+    str = str.replace(/^\s+|\s+$/g, ''); // trim
+    str = str.toLowerCase();
+  
+    // remove accents, swap ñ for n, etc
+    var from = "àáäâèéëêìíïîòóöôùúüûñç·/,:;'";
+    var to   = "aaaaeeeeiiiioooouuuunc______";
+    for (var i=0, l=from.length ; i<l ; i++) {
+        str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+    }
+
+    str = str.replace(/[^a-z0-9 _]/g, '') // remove invalid chars
+        .replace(/\s+/g, '_') // collapse whitespace and replace by _
+        .replace(/_+/g, '_'); // collapse underscores
+
+    return str;
+}
