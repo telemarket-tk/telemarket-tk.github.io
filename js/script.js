@@ -10,25 +10,28 @@ function init(){
   player.volume = 1;
 
   // Click link event
-  tracks.click(function(e){
+  tracks.click( function(e) {
     e.preventDefault();
     link = $(this);
     current = link.parent().index();
-    run(link);
+    run(link, true);
   });
 
   // Load next song
   player.addEventListener('ended', function(e){
     current++;
     if(current == len){ current = 0; }
-    run($(tracks[current]));
+    run($(tracks[current]), current);
   });
+
+  run($(tracks[0]));
 }
-function run(link){
+
+function run(link, play = false){
   player.src = link.attr('href');
   link.parent().addClass('active').siblings().removeClass('active');
   player.load();
-  player.play();
+  if (play) { player.play() };
   $('#title').html(link.text());
   $('#meta').html(link.attr('data-meta'));
 }
