@@ -55,6 +55,7 @@
 - name: Very Big
   singer: [Bijan]
   petrosh_altervista_org: Very_Big
+  original: The Senator's Daughter by Fountains Of Wayne
   date: 2006-05-13
 
 - name: Il Vassoio in Visione
@@ -84,13 +85,14 @@
 
 - name: 3 Marce in Più
   singer: [Boni]
-  micca: 3marceinpiu
+  github: 3marceinpiu
   date: 2003-07-05
 
 - name: Metropolismo
   singer: [Boni]
   micca: metropolismo
   date: 2005-01-26
+  original: Time to Ball by AJZ
 
 - name: 75 Pez
   singer: [Orlando]
@@ -120,10 +122,11 @@
 - name: Voglio Vedere
   singer: [Orlando]
   micca: voglio_vedere
+  original: Futuro by Mae
 
 - name: Anni Insieme
   singer: [Boni]
-  micca: anniinsieme
+  github: anniinsieme
 
 - name: Esigente
   singer: [Orlando]
@@ -139,7 +142,7 @@
 
 - name: L'Abbandono
   singer: [Orlando]
-  micca: abbandono
+  github: abbandono
 
 - name: Con Mio Padre
   singer: [Orlando]
@@ -147,7 +150,7 @@
 
 - name: Biscuit
   singer: [Frattini]
-  micca: biscuit
+  github: biscuit
 
 - name: Manca Poco
   singer: [Orlando]
@@ -177,7 +180,7 @@
 
 - name: Bombè
   singer: [Frattini]
-  micca: bombe
+  github: bombe
 
 - name: Virtual Love
   singer: [Frattini]
