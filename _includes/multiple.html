@@ -9,7 +9,7 @@
   <ul id="playlist">
   {% for song in sorted %}
     <li>{% if song.github %}{% assign link = site.baseurl | append: "/mp3/" | append: song.github | append: ".mp3" %}{% endif %}
-      <a href="/mp3/{{ song.name | slugify: "latin" }}.mp3" data-meta="{{ song.singer }}{% if song.date %} ({{ song.date }}){% endif %}{% if song.original %} - {{ song.original }}{% endif %}"><h4>{{ song.name }}</h4></a>
+      <a href="/mp3/{{ song.name | slugify: "latin" | replace: "-", "_" }}.mp3" data-meta="{{ song.singer }}{% if song.date %} ({{ song.date }}){% endif %}{% if song.original %} - {{ song.original }}{% endif %}"><h4>{{ song.name }}</h4></a>
       <p>{{ song.singer }}{% if song.date %} ({{ song.date }}){% endif %}{% if song.original %} - {{ song.original }}{% endif %}</p>
     </li>{% endfor %}
   </ul>
