@@ -1,0 +1,5 @@
+{%- assign gh = site.github -%}
+{%- assign repo = gh.public_repositories | where: "full_name", gh.repository_nwo | first -%}
+{%- assign build_time = site.time | date: "%Y-%m-%d %T %Z" -%}
+{%- assign build_time_unix = site.time | date: "%s" -%}
+{%- assign static_files_paths = site.static_files | map: 'path' -%}
