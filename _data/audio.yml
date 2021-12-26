@@ -1,297 +1,237 @@
+- name: Sospeso
+  singer: Alessandro Orlando
+  date: 2021-12-26
+  original: Aftermath by WYS x Sweet Medicine
+
 - name: 600 Euro
   singer: Francesco Boni
-  github: 600_Euro
   date: 2003-06-29
 
 - name: Bimbo
   singer: Bijan Parvizyar
-  github: Bimbo
   date: 2005-10-11
 
 - name: Bella cosa
   singer: Alessandro Orlando
-  github: Bella_Cosa
   date: 2003-06-10
   original: I'm Not The Man I Used To Be by Fine Young Cannibals
 
 - name: Parigi
   singer: Paolo Frattini
-  github: Parigi
   date: 2005-08-22
 
 - name: Ossessione
   singer: Alessandro Orlando
-  github: Ossessione
   date: 2008-01-26
 
 - name: Just Jack
   singer: Alessandro Orlando
-  github: Just_Jack
   date: 2007-05-27
 
 - name: Io Ho
   singer: Alessandro Orlando
   original: C.Rock by Chrisma
-  github: Io_Ho
   date: 2006-08-14
 
 - name: Un Ricordo
   singer: Bijan Parvizyar
   original: Story Board by The Album Leaf
-  github: Un_Ricordo
   date: 2008-12-27
 
 - name: Shining
   singer: Alessandro Orlando
-  github: Shining
   original: When Tomorrow Comes by Spider Smile
   date: 2008-10-16
 
 - name: Hagi Janily
   singer: Bijan Parvizyar
-  github: Hagi_Janily
   date: 2005-07-06
 
 - name: Very Big
   singer: Bijan Parvizyar
-  github: Very_Big
   original: The Senator's Daughter by Fountains Of Wayne
   date: 2006-05-13
 
 - name: Il Vassoio in Visione
   singer: Paolo Frattini
-  github: Il_Vassoio_In_Visione
   date: 2005-04-17
 
 - name: Stefania
   singer: Paolo Frattini
-  github: Stefania
   date: 2007-06-20
 
 - name: "5000"
   singer: Paolo Frattini
-  github: "5000"
   date: 2007-07-13
 
 - name: Se Sa Sa
   singer: Bijan Parvizyar
-  github: Se_Sa_Sa
   date: 2005-03-15
 
 - name: Gira il Canal
   singer: Bijan Parvizyar
-  github: Gira_Il_Canal
   date: 2005-04-18
 
 - name: 3 Marce in Più
   singer: Francesco Boni
-  github: 3marceinpiu
   date: 2003-07-05
 
 - name: Metropolismo
   singer: Francesco Boni
-  github: metropolismo
   date: 2005-01-26
   original: Time to Ball by AJZ
 
 - name: 75 Pez
   singer: Alessandro Orlando
-  github: 75PEZ
   date: 2008-01-02
   original: Inmortality by Pablo Bolivar
 
 - name: Okaka
   singer: Francesco Boni
-  github: okaka
 
 - name: C'est l'Amour
   singer: Alessandro Orlando
-  github: cest_lamour
   original: Endless Supply by Pernice Brothers
 
 - name: Japon
   singer: Alessandro Orlando
   original: Audrey's Dance by Twin Peaks Soundtrack
-  github: Japon
 
 - name: Tutti i Mari del Mondo
   singer: Francesco Boni
   original: Dangerous And Moving by t.A.T.u.
-  github: tutti_i_mari_del_mondo
 
 - name: Voglio Vedere
   singer: Alessandro Orlando
-  github: voglio_vedere
   original: Futuro by Mae
 
 - name: Anni Insieme
   singer: Francesco Boni
-  github: anniinsieme
 
 - name: Esigente
   singer: Alessandro Orlando
-  github: esigente
 
 - name: Grande Museo
   singer: Francesco Boni
-  github: grandemuseo
 
 - name: Guarda
   singer: Alessandro Orlando
-  github: guarda
 
 - name: L'Abbandono
   singer: Alessandro Orlando
-  github: abbandono
 
 - name: Con Mio Padre
   singer: Alessandro Orlando
-  github: conmiopadre
 
 - name: Biscuit
   singer: Paolo Frattini
-  github: biscuit
 
 - name: Manca Poco
   singer: Alessandro Orlando
-  github: manca_poco
 
 - name: Jaqueline
   singer: Alessandro Orlando
-  github: jaqueline
 
 - name: Fegato d'Oca
   singer: Alessandro Orlando
-  github: fegato_doca
 
 - name: Kartoon 29
   singer: Paolo Frattini
-  github: kartoon_29
   original: The Kartoon Maker by Jean-Jacques Perrey Et Daniel Longuein
 
 - name: Coshon
   singer: Bijan Parvizyar
-  github: coshon
   original: Samba Do Sueño by Eddie Palmier, Cal Tjader
 
 - name: E Allora
   singer: Bijan Parvizyar
-  github: e_allora
   original: Ooh La La by Coolio
 
 - name: Bombè
   singer: Paolo Frattini
-  github: bombe
 
 - name: Virtual Love
   singer: Paolo Frattini
-  github: virtual_love
 
 - name: Possedere
   singer: Bijan Parvizyar
-  github: possedere
 
 - name: La Metafisica
   singer: Francesco Boni
-  github: la_metafisica
 
 - name: Panther
   singer: Paolo Frattini
-  github: Panther
   original: Galvanize by The Chemical Brothers
 
 - name: Michela
   singer: Bijan Parvizyar
-  github: Michela
 
 - name: Stile
   singer: Alessandro Orlando
-  github: Stile
   original: Get Yourself High by The Chemical Brothers, k-os
 
 - name: Peppino
   singer: Paolo Frattini
-  github: Peppino
 
 - name: L'Ippopotamo
   singer: Francesco Boni
-  github: L_Ippopotamo
 
 - name: Pieni di Seta
   singer: Bijan Parvizyar
-  github: Pieni_di_Seta
 
 - name: La Mossa
   singer: Alessandro Orlando
-  github: La_Mossa
 
 - name: Numero Uno
   singer: Francesco Boni
-  github: Numero_Uno
 
 - name: Epoch
   singer: Francesco Boni
-  github: Epoch
 
 - name: Tetesco
   singer: Francesco Boni, Paolo Frattini
-  github: Tetesco
 
 - name: Amati Amati Amati
   singer: Paolo Frattini
-  github: Amati_Amati_Amati
 
 - name: Din Din Din
   singer: Monica Banfi
-  github: Din_Din_Din
 
 - name: Accetto Scommesse
   singer: Giampaolo Paci, Luca Tommasi
-  github: Accetto_Scommesse
 
 - name: Il Vecchio Giampier
   singer: Giampaolo Paci
-  github: Il_Vecchio_Giampier
 
 - name: Veramente Strike
   singer: Giampaolo Paci
-  github: Veramente_Strike
 
 - name: Gothlo
   singer: Bijan Parvizyar
-  github: Gothlo
 
 - name: Per il Corno
   singer: Emanuela Bertoncelli
-  github: Per_il_Corno
 
 - name: Oro Bianco
   singer: Emanuela Bertoncelli
-  github: Oro_Bianco
 
 - name: È Tornato
   singer: Alessandro Orlando, Francesco Boni
-  github: E_Tornato
 
 - name: Grazie
   singer: Giampaolo Paci
-  github: Grazie
 
 - name: La Macchina
   singer: Alessandro Orlando
-  github: La_Macchina
 
 - name: Signore
   singer: Alessandro Orlando
-  github: Signore
 
 - name: State Attenti
   singer: Alessandro Orlando
-  github: State_Attenti
 
 - name: Tabriz
   singer: Alessandro Orlando
-  github: Tabriz
 
 - name: Il Fenomeno Baseviz
   singer: Alessandro Orlando, Francesco Boni
